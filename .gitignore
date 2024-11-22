@@ -1,9 +1,14 @@
-.homeassistant
-.esphome
 .matter
 .nginx/secrets
+
 ### HomeAssistant ###
-# Files with personal details
+.homeassistant/go2rtc-*
+.homeassistant/.entity-renamer
+.homeassistant/nest/event_media/
+.homeassistant/music/
+.media/top100
+.esphome/.esphome
+.esphome/secrets.yaml
 .homeassistant/backups
 *.crt
 *.csr
